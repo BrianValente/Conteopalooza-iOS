@@ -7,7 +7,14 @@ An app made for Lollapalooza Argentina 2019. Includes a countdown, lineup, stick
 </p>-->
 
 <p align="center">
+  <a href="https://itunes.apple.com/us/app/conteopalooza/id1446482154">
+    <img src="/Assets/App%20Store/Badge.png" />
+  </a>
+</p>
+
+<p align="center">
   <img src="/Assets/Previews/1%20-%20iPhone%20X.png" width="30%" />
   <img src="/Assets/Previews/2%20-%20iPhone%20X.png" width="30%" /> 
   <img src="/Assets/Previews/3%20-%20iPhone%20X.png" width="30%" />
 </p>
+
