@@ -1,0 +1,56 @@
+{
+  "stickers" : [
+    {
+      "filename" : "LollapallozaLogo-Sticker@1x.sticker"
+    },
+    {
+      "filename" : "Conteopalooza-Logo-Square-Sticker@1x.sticker"
+    },
+    {
+      "filename" : "UFO@1x.sticker"
+    },
+    {
+      "filename" : "Flag-Argentina@1x.sticker"
+    },
+    {
+      "filename" : "Flag-Chile@1x.sticker"
+    },
+    {
+      "filename" : "Llama@1x.sticker"
+    },
+    {
+      "filename" : "Planetario@1x.sticker"
+    },
+    {
+      "filename" : "Observatory@1x.sticker"
+    },
+    {
+      "filename" : "Moai@1x.sticker"
+    },
+    {
+      "filename" : "Dog@1x.sticker"
+    },
+    {
+      "filename" : "Rainbow-Sticker@1x.sticker"
+    },
+    {
+      "filename" : "DiscoBall-Sticker@1x.sticker"
+    },
+    {
+      "filename" : "Avocado@1x.sticker"
+    },
+    {
+      "filename" : "Planet@1x.sticker"
+    },
+    {
+      "filename" : "Radio-Sticker@1x.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}

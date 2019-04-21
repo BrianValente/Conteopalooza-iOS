@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="Today" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tyQ-GW-slz" userLabel="Text Stack View">
+                                <rect key="frame" x="-69" y="5" width="458" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Disfrutá del Lollapalooza! 🥳" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2u-NT-LCw" userLabel="Countdown Finished Label">
+                                        <rect key="frame" x="0.0" y="0.0" width="230.5" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kap-w3-SOU" userLabel="Remaining Stack View">
+                                        <rect key="frame" x="230.5" y="0.0" width="227.5" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Faltan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MX-AJ-IRD">
+                                                <rect key="frame" x="0.0" y="10" width="51" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BtR-Vu-iCQ">
+                                                <rect key="frame" x="56" y="8" width="18" height="24"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DÍAS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSJ-LR-PPJ">
+                                                <rect key="frame" x="79" y="8" width="47" height="24"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="para el Lolla!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHt-vx-LDN">
+                                                <rect key="frame" x="131" y="10" width="96.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="BSJ-LR-PPJ" firstAttribute="leading" secondItem="BtR-Vu-iCQ" secondAttribute="trailing" constant="5" id="HJd-hH-Egc"/>
+                                            <constraint firstItem="CHt-vx-LDN" firstAttribute="leading" secondItem="BSJ-LR-PPJ" secondAttribute="trailing" constant="5" id="hmz-9n-5qT"/>
+                                            <constraint firstItem="BtR-Vu-iCQ" firstAttribute="leading" secondItem="0MX-AJ-IRD" secondAttribute="trailing" constant="5" id="ruD-Sl-zvE"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="j9Q-XR-EO6" userLabel="Icons Stack View">
+                                <rect key="frame" x="0.0" y="50" width="320" height="40"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UFO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbl-DW-hNB">
+                                        <rect key="frame" x="0.0" y="0.0" width="106.5" height="40"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Conteopalooza-Logo-Wide" translatesAutoresizingMaskIntoConstraints="NO" id="CKH-JI-0xt">
+                                        <rect key="frame" x="106.5" y="0.0" width="107" height="40"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiscoBall" translatesAutoresizingMaskIntoConstraints="NO" id="fgA-gs-huI">
+                                        <rect key="frame" x="213.5" y="0.0" width="106.5" height="40"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="QRp-Yt-e7R"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="j9Q-XR-EO6" secondAttribute="trailing" id="B1E-dO-6Gs"/>
+                            <constraint firstItem="tyQ-GW-slz" firstAttribute="top" secondItem="S3S-Oj-5AN" secondAttribute="top" constant="5" id="EmQ-zc-AXp"/>
+                            <constraint firstItem="j9Q-XR-EO6" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="Lq5-jB-Yju"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="bottom" secondItem="j9Q-XR-EO6" secondAttribute="bottom" constant="10" id="SGd-7a-x5E"/>
+                            <constraint firstItem="tyQ-GW-slz" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="TIv-CU-QPx"/>
+                            <constraint firstItem="j9Q-XR-EO6" firstAttribute="top" secondItem="tyQ-GW-slz" secondAttribute="bottom" constant="5" id="pAf-rx-sof"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="100"/>
+                    <connections>
+                        <outlet property="countdownFinishedLabel" destination="s2u-NT-LCw" id="xz1-qV-vm1"/>
+                        <outlet property="label" destination="BtR-Vu-iCQ" id="LRq-t4-Ekw"/>
+                        <outlet property="remainingDaysLabel1" destination="0MX-AJ-IRD" id="O6N-Ch-4Th"/>
+                        <outlet property="remainingDaysLabel2" destination="BSJ-LR-PPJ" id="PbE-Tc-we0"/>
+                        <outlet property="remainingDaysStackView" destination="kap-w3-SOU" id="yYB-T9-y7o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="208" y="62.068965517241381"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Conteopalooza-Logo-Wide" width="1762" height="356"/>
+        <image name="DiscoBall" width="331" height="250"/>
+        <image name="UFO" width="327" height="250"/>
+    </resources>
+</document>

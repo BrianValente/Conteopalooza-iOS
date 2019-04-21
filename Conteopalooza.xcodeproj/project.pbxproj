@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A20988921EF26B200BCF29F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A20988821EF26B200BCF29F /* GoogleService-Info.plist */; };
+		4A3DDCA921BF70F900CCD6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3DDCA721BF70F900CCD6F7 /* Main.storyboard */; };
+		4A3DDCAB21BF70FA00CCD6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3DDCAA21BF70FA00CCD6F7 /* Assets.xcassets */; };
+		4A3DDCAE21BF70FA00CCD6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3DDCAC21BF70FA00CCD6F7 /* LaunchScreen.storyboard */; };
+		4A3DDCC221C002E700CCD6F7 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3DDCC121C002E700CCD6F7 /* NotificationCenter.framework */; };
+		4A3DDCC521C002E700CCD6F7 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3DDCC421C002E700CCD6F7 /* TodayViewController.swift */; };
+		4A3DDCC821C002E700CCD6F7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3DDCC621C002E700CCD6F7 /* MainInterface.storyboard */; };
+		4A3DDCCC21C002E700CCD6F7 /* Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4A3DDCBF21C002E700CCD6F7 /* Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4AA60651226BFC8A0043931C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3DDCA321BF70F900CCD6F7 /* AppDelegate.swift */; };
+		4AA60652226BFC8A0043931C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3DDCA521BF70F900CCD6F7 /* ViewController.swift */; };
+		4AA60653226BFC8A0043931C /* LineupDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB24D2C21C22FC70043A0B2 /* LineupDataTableViewController.swift */; };
+		4AA60654226BFC8A0043931C /* LineupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB24D2721C227AC0043A0B2 /* LineupViewController.swift */; };
+		4AA60655226BFC8A0043931C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB24D2521C03D6E0043A0B2 /* AboutViewController.swift */; };
+		4AA60656226BFC8A0043931C /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3DDCB521BFA1CD00CCD6F7 /* CustomTabBar.swift */; };
+		4AA60657226BFC8A0043931C /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB24D2E21C26AAB0043A0B2 /* CustomTabBarController.swift */; };
+		4AA60658226BFC8A0043931C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3DDCB921BFA39D00CCD6F7 /* Extensions.swift */; };
+		4AA60659226BFD160043931C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3DDCB921BFA39D00CCD6F7 /* Extensions.swift */; };
+		4AB24D1D21C027250043A0B2 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB24D1C21C027250043A0B2 /* Stickers.xcassets */; };
+		4AB24D2121C027250043A0B2 /* Conteopalooza Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4AB24D1A21C027240043A0B2 /* Conteopalooza Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4AE0A62A21C337C500CC8025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE0A62921C337C500CC8025 /* Assets.xcassets */; };
+		9E366CE2646A073F168D9136 /* libPods-Conteopalooza.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D12612816F90633DBFBA771D /* libPods-Conteopalooza.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A3DDCCA21C002E700CCD6F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3DDC9821BF70F900CCD6F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3DDCBE21C002E700CCD6F7;
+			remoteInfo = Today;
+		};
+		4AB24D1F21C027250043A0B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3DDC9821BF70F900CCD6F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AB24D1921C027240043A0B2;
+			remoteInfo = "Conteopalooza Stickers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A3DDCD021C002E700CCD6F7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4AB24D2121C027250043A0B2 /* Conteopalooza Stickers.appex in Embed App Extensions */,
+				4A3DDCCC21C002E700CCD6F7 /* Today.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		163DF5BF29DB7B3BD17C8129 /* libPods-CountPalooza.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CountPalooza.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A20988821EF26B200BCF29F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4A3DDCA021BF70F900CCD6F7 /* Conteopalooza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conteopalooza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3DDCA321BF70F900CCD6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A3DDCA521BF70F900CCD6F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A3DDCA821BF70F900CCD6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A3DDCAA21BF70FA00CCD6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A3DDCAD21BF70FA00CCD6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A3DDCAF21BF70FA00CCD6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3DDCB521BFA1CD00CCD6F7 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		4A3DDCB921BFA39D00CCD6F7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4A3DDCBF21C002E700CCD6F7 /* Today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Today.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3DDCC121C002E700CCD6F7 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		4A3DDCC421C002E700CCD6F7 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		4A3DDCC721C002E700CCD6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		4A3DDCC921C002E700CCD6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB24D1A21C027240043A0B2 /* Conteopalooza Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Conteopalooza Stickers.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB24D1C21C027250043A0B2 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		4AB24D1E21C027250043A0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB24D2521C03D6E0043A0B2 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		4AB24D2721C227AC0043A0B2 /* LineupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineupViewController.swift; sourceTree = "<group>"; };
+		4AB24D2C21C22FC70043A0B2 /* LineupDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineupDataTableViewController.swift; sourceTree = "<group>"; };
+		4AB24D2E21C26AAB0043A0B2 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		4ACE0FCF21C34ABB00F289CE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CountPalooza/Extensions.swift; sourceTree = SOURCE_ROOT; };
+		4AE0A62921C337C500CC8025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BE2F3A32C74BC394A41E7F3 /* Pods-Conteopalooza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Conteopalooza.release.xcconfig"; path = "Pods/Target Support Files/Pods-Conteopalooza/Pods-Conteopalooza.release.xcconfig"; sourceTree = "<group>"; };
+		51E24CBA20C259354BAD54B8 /* Pods-CountPalooza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountPalooza.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountPalooza/Pods-CountPalooza.release.xcconfig"; sourceTree = "<group>"; };
+		A3380E98C5507E36B3823812 /* Pods-CountPalooza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountPalooza.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CountPalooza/Pods-CountPalooza.debug.xcconfig"; sourceTree = "<group>"; };
+		C277518652C4EC55E5AD9F8B /* Pods-Conteopalooza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Conteopalooza.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Conteopalooza/Pods-Conteopalooza.debug.xcconfig"; sourceTree = "<group>"; };
+		D12612816F90633DBFBA771D /* libPods-Conteopalooza.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Conteopalooza.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61DBEB63C1BCE3909269A17 /* libPods-Today.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Today.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A3DDC9D21BF70F900CCD6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E366CE2646A073F168D9136 /* libPods-Conteopalooza.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3DDCBC21C002E700CCD6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3DDCC221C002E700CCD6F7 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B26C7543FAD83A8323551E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A3DDC9721BF70F900CCD6F7 = {
+			isa = PBXGroup;
+			children = (
+				4A3DDCA221BF70F900CCD6F7 /* Conteopalooza */,
+				4A3DDCC321C002E700CCD6F7 /* Today */,
+				4AB24D1B21C027240043A0B2 /* Conteopalooza Stickers */,
+				4A3DDCC021C002E700CCD6F7 /* Frameworks */,
+				4A3DDCA121BF70F900CCD6F7 /* Products */,
+				CED559663D960781B566F02C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4A3DDCA121BF70F900CCD6F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A3DDCA021BF70F900CCD6F7 /* Conteopalooza.app */,
+				4A3DDCBF21C002E700CCD6F7 /* Today.appex */,
+				4AB24D1A21C027240043A0B2 /* Conteopalooza Stickers.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A3DDCA221BF70F900CCD6F7 /* Conteopalooza */ = {
+			isa = PBXGroup;
+			children = (
+				4A3DDCA321BF70F900CCD6F7 /* AppDelegate.swift */,
+				4A3DDCA521BF70F900CCD6F7 /* ViewController.swift */,
+				4A3DDCA721BF70F900CCD6F7 /* Main.storyboard */,
+				4AB24D2C21C22FC70043A0B2 /* LineupDataTableViewController.swift */,
+				4AB24D2721C227AC0043A0B2 /* LineupViewController.swift */,
+				4AB24D2521C03D6E0043A0B2 /* AboutViewController.swift */,
+				4A3DDCB521BFA1CD00CCD6F7 /* CustomTabBar.swift */,
+				4AB24D2E21C26AAB0043A0B2 /* CustomTabBarController.swift */,
+				4A3DDCB921BFA39D00CCD6F7 /* Extensions.swift */,
+				4A3DDCAA21BF70FA00CCD6F7 /* Assets.xcassets */,
+				4A3DDCAC21BF70FA00CCD6F7 /* LaunchScreen.storyboard */,
+				4A20988821EF26B200BCF29F /* GoogleService-Info.plist */,
+				4A3DDCAF21BF70FA00CCD6F7 /* Info.plist */,
+			);
+			path = Conteopalooza;
+			sourceTree = "<group>";
+		};
+		4A3DDCC021C002E700CCD6F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A3DDCC121C002E700CCD6F7 /* NotificationCenter.framework */,
+				163DF5BF29DB7B3BD17C8129 /* libPods-CountPalooza.a */,
+				E61DBEB63C1BCE3909269A17 /* libPods-Today.a */,
+				D12612816F90633DBFBA771D /* libPods-Conteopalooza.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A3DDCC321C002E700CCD6F7 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0A62921C337C500CC8025 /* Assets.xcassets */,
+				4ACE0FCF21C34ABB00F289CE /* Extensions.swift */,
+				4A3DDCC421C002E700CCD6F7 /* TodayViewController.swift */,
+				4A3DDCC621C002E700CCD6F7 /* MainInterface.storyboard */,
+				4A3DDCC921C002E700CCD6F7 /* Info.plist */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		4AB24D1B21C027240043A0B2 /* Conteopalooza Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				4AB24D1C21C027250043A0B2 /* Stickers.xcassets */,
+				4AB24D1E21C027250043A0B2 /* Info.plist */,
+			);
+			path = "Conteopalooza Stickers";
+			sourceTree = "<group>";
+		};
+		CED559663D960781B566F02C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3380E98C5507E36B3823812 /* Pods-CountPalooza.debug.xcconfig */,
+				51E24CBA20C259354BAD54B8 /* Pods-CountPalooza.release.xcconfig */,
+				C277518652C4EC55E5AD9F8B /* Pods-Conteopalooza.debug.xcconfig */,
+				4BE2F3A32C74BC394A41E7F3 /* Pods-Conteopalooza.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A3DDC9F21BF70F900CCD6F7 /* Conteopalooza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3DDCB221BF70FA00CCD6F7 /* Build configuration list for PBXNativeTarget "Conteopalooza" */;
+			buildPhases = (
+				851C1436743632E8274EAA7C /* [CP] Check Pods Manifest.lock */,
+				4A3DDC9C21BF70F900CCD6F7 /* Sources */,
+				4A3DDC9D21BF70F900CCD6F7 /* Frameworks */,
+				4A3DDC9E21BF70F900CCD6F7 /* Resources */,
+				4A3DDCD021C002E700CCD6F7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3DDCCB21C002E700CCD6F7 /* PBXTargetDependency */,
+				4AB24D2021C027250043A0B2 /* PBXTargetDependency */,
+			);
+			name = Conteopalooza;
+			productName = CountPalooza;
+			productReference = 4A3DDCA021BF70F900CCD6F7 /* Conteopalooza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A3DDCBE21C002E700CCD6F7 /* Today */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3DDCCD21C002E700CCD6F7 /* Build configuration list for PBXNativeTarget "Today" */;
+			buildPhases = (
+				4A3DDCBB21C002E700CCD6F7 /* Sources */,
+				4A3DDCBC21C002E700CCD6F7 /* Frameworks */,
+				4A3DDCBD21C002E700CCD6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Today;
+			productName = Today;
+			productReference = 4A3DDCBF21C002E700CCD6F7 /* Today.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4AB24D1921C027240043A0B2 /* Conteopalooza Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB24D2421C027250043A0B2 /* Build configuration list for PBXNativeTarget "Conteopalooza Stickers" */;
+			buildPhases = (
+				4AB24D1821C027240043A0B2 /* Resources */,
+				77B26C7543FAD83A8323551E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Conteopalooza Stickers";
+			productName = "Conteopalooza Stickers";
+			productReference = 4AB24D1A21C027240043A0B2 /* Conteopalooza Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A3DDC9821BF70F900CCD6F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Brian Valente";
+				TargetAttributes = {
+					4A3DDC9F21BF70F900CCD6F7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4A3DDCBE21C002E700CCD6F7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4AB24D1921C027240043A0B2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A3DDC9B21BF70F900CCD6F7 /* Build configuration list for PBXProject "Conteopalooza" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A3DDC9721BF70F900CCD6F7;
+			productRefGroup = 4A3DDCA121BF70F900CCD6F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A3DDC9F21BF70F900CCD6F7 /* Conteopalooza */,
+				4A3DDCBE21C002E700CCD6F7 /* Today */,
+				4AB24D1921C027240043A0B2 /* Conteopalooza Stickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A3DDC9E21BF70F900CCD6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3DDCAE21BF70FA00CCD6F7 /* LaunchScreen.storyboard in Resources */,
+				4A20988921EF26B200BCF29F /* GoogleService-Info.plist in Resources */,
+				4A3DDCAB21BF70FA00CCD6F7 /* Assets.xcassets in Resources */,
+				4A3DDCA921BF70F900CCD6F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3DDCBD21C002E700CCD6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE0A62A21C337C500CC8025 /* Assets.xcassets in Resources */,
+				4A3DDCC821C002E700CCD6F7 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB24D1821C027240043A0B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB24D1D21C027250043A0B2 /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		851C1436743632E8274EAA7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Conteopalooza-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A3DDC9C21BF70F900CCD6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA60651226BFC8A0043931C /* AppDelegate.swift in Sources */,
+				4AA60652226BFC8A0043931C /* ViewController.swift in Sources */,
+				4AA60653226BFC8A0043931C /* LineupDataTableViewController.swift in Sources */,
+				4AA60654226BFC8A0043931C /* LineupViewController.swift in Sources */,
+				4AA60655226BFC8A0043931C /* AboutViewController.swift in Sources */,
+				4AA60656226BFC8A0043931C /* CustomTabBar.swift in Sources */,
+				4AA60657226BFC8A0043931C /* CustomTabBarController.swift in Sources */,
+				4AA60658226BFC8A0043931C /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3DDCBB21C002E700CCD6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3DDCC521C002E700CCD6F7 /* TodayViewController.swift in Sources */,
+				4AA60659226BFD160043931C /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A3DDCCB21C002E700CCD6F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3DDCBE21C002E700CCD6F7 /* Today */;
+			targetProxy = 4A3DDCCA21C002E700CCD6F7 /* PBXContainerItemProxy */;
+		};
+		4AB24D2021C027250043A0B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AB24D1921C027240043A0B2 /* Conteopalooza Stickers */;
+			targetProxy = 4AB24D1F21C027250043A0B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A3DDCA721BF70F900CCD6F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3DDCA821BF70F900CCD6F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A3DDCAC21BF70FA00CCD6F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3DDCAD21BF70FA00CCD6F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4A3DDCC621C002E700CCD6F7 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3DDCC721C002E700CCD6F7 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A3DDCB021BF70FA00CCD6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A3DDCB121BF70FA00CCD6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A3DDCB321BF70FA00CCD6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C277518652C4EC55E5AD9F8B /* Pods-Conteopalooza.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 774TKFHL7M;
+				INFOPLIST_FILE = "$(SRCROOT)/Conteopalooza/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianvalente.Conteopalooza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A3DDCB421BF70FA00CCD6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE2F3A32C74BC394A41E7F3 /* Pods-Conteopalooza.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 774TKFHL7M;
+				INFOPLIST_FILE = "$(SRCROOT)/Conteopalooza/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianvalente.Conteopalooza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A3DDCCE21C002E700CCD6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 774TKFHL7M;
+				INFOPLIST_FILE = Today/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianvalente.Conteopalooza.Today;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A3DDCCF21C002E700CCD6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 774TKFHL7M;
+				INFOPLIST_FILE = Today/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianvalente.Conteopalooza.Today;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AB24D2221C027250043A0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 774TKFHL7M;
+				INFOPLIST_FILE = "Conteopalooza Stickers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brianvalente.Conteopalooza.Conteopalooza-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AB24D2321C027250043A0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 774TKFHL7M;
+				INFOPLIST_FILE = "Conteopalooza Stickers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brianvalente.Conteopalooza.Conteopalooza-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A3DDC9B21BF70F900CCD6F7 /* Build configuration list for PBXProject "Conteopalooza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3DDCB021BF70FA00CCD6F7 /* Debug */,
+				4A3DDCB121BF70FA00CCD6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3DDCB221BF70FA00CCD6F7 /* Build configuration list for PBXNativeTarget "Conteopalooza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3DDCB321BF70FA00CCD6F7 /* Debug */,
+				4A3DDCB421BF70FA00CCD6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3DDCCD21C002E700CCD6F7 /* Build configuration list for PBXNativeTarget "Today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3DDCCE21C002E700CCD6F7 /* Debug */,
+				4A3DDCCF21C002E700CCD6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB24D2421C027250043A0B2 /* Build configuration list for PBXNativeTarget "Conteopalooza Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB24D2221C027250043A0B2 /* Debug */,
+				4AB24D2321C027250043A0B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A3DDC9821BF70F900CCD6F7 /* Project object */;
+}
